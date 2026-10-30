@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Bharat Dark Grid: Executive Summary</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --surface: #ffffff; --text: #1d2330; --muted: #5b6372;
+    --accent: #1f4e79; --accent-soft: #e8f0f8; --border: #d9dee7;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #12151c; --surface: #1a1f2a; --text: #e6e9f0; --muted: #9aa3b5;
+      --accent: #8ab8e6; --accent-soft: #223246; --border: #2e3645;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12151c; --surface: #1a1f2a; --text: #e6e9f0; --muted: #9aa3b5;
+    --accent: #8ab8e6; --accent-soft: #223246; --border: #2e3645;
+    color-scheme: dark;
+  }
+  :root { box-sizing: border-box; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  *, *::before, *::after { box-sizing: inherit; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6; font-size: 16px; }
+  main { max-width: 900px; margin: 0 auto; padding: 32px 20px 64px; }
+  header.doc-header { background: var(--surface); border: 1px solid var(--border);
+    border-left: 6px solid var(--accent); border-radius: 10px; padding: 24px 28px; margin-bottom: 24px; }
+  header.doc-header h1 { margin: 0 0 6px; font-size: 1.6rem; color: var(--accent); }
+  header.doc-header h2 { margin: 0 0 16px; font-size: 1.1rem; font-weight: 500; color: var(--muted); }
+  .key-facts { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .key-facts li { background: var(--accent-soft); border-radius: 6px; padding: 8px 12px; margin: 0; }
+  section.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 20px 26px; margin-bottom: 20px; }
+  section.card h3 { margin: 0 0 12px; font-size: 1.2rem; color: var(--accent); }
+  h4 { margin: 18px 0 8px; font-size: 1rem; }
+  ol, ul { padding-left: 22px; margin: 8px 0; }
+  li { margin-bottom: 8px; }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; margin: 12px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  tr.total td { font-weight: 700; background: var(--accent-soft); }
+  .note { font-size: 0.88rem; color: var(--muted); margin: 8px 0 0; }
+  pre.flow { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;
+    overflow-x: auto; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.85rem; }
+  footer { margin-top: 32px; font-size: 0.8rem; color: var(--muted); text-align: center; }
+</style>
+</head>
+<body>
+<main>
+
+<header class="doc-header">
+  <h1>Project Bharat Dark Grid</h1>
+  <h2>Executive Summary</h2>
+  <ul class="key-facts">
+    <li><strong>Total Investment:</strong> $56.00 Trillion, financed by 10-year bonds at 9% interest</li>
+    <li><strong>Factories:</strong> Approximately 560,000 dark factories on 1-acre coastal sites</li>
+    <li><strong>Power:</strong> 840 GW of dedicated zero-carbon nuclear baseload</li>
+    <li><strong>Market Share:</strong> 28% of world physical manufacturing value-add</li>
+    <li><strong>Profit at Full Scale:</strong> About $4.71 Trillion per year after tax (2024 world levels)</li>
+    <li><strong>Repayment:</strong> From pooled net profit, after Iron Nexus; cleared in Year 20</li>
+  </ul>
+</header>
+
+<section class="card">
+  <h3>1. Overview</h3>
+  <ol>
+    <li><strong>What it is:</strong> A coastal, software-defined manufacturing matrix in India, with dark factories that run without on-site staff.</li>
+    <li><strong>Scale:</strong> 560,000 factories along a 7,500 km coastal corridor.</li>
+    <li><strong>Output target:</strong> 28% of world physical manufacturing value-add.</li>
+    <li><strong>Role in the programme:</strong> One of two projects, with Project Iron Nexus ($40.00T), making up the $96.00T programme.</li>
+  </ol>
+</section>
+
+<section class="card">
+  <h3>2. Rollout</h3>
+  <pre class="flow">[Year 15]      Project Iron Nexus operative (pre-condition for Bharat)
+[Years 16-18]  Phase 1: set-up; no profit
+[Years 19-22]  Phase 2 (Years 4-7 of build): first 50,000 factories engaged; profit $0.42T per year
+[Years 23-26]  Phase 3 (Years 8-11): 300,000 factories active; profit $2.52T per year
+[Year 27+]     Phase 4 (Years 12+): 560,000 factories and 840 GW at full scale; profit $4.71T per year</pre>
+  <p class="note">Bharat's build starts after Iron Nexus is operative in Year 15. Phase timings are shown relative to that start.</p>
+</section>
+
+<section class="card">
+  <h3>3. Profit and Cash Allocation</h3>
+  <ul>
+    <li><strong>Profit to pool:</strong> Bharat's after-tax profit goes into the shared net profit pool.</li>
+    <li><strong>Reserve:</strong> 60% of Bharat profit is held as corporate reserve until Bharat's bonds are cleared.</li>
+    <li><strong>Debt service:</strong> 40% of Bharat profit goes to the pool, which repays Iron Nexus first and then Bharat.</li>
+    <li><strong>After clearance:</strong> From Year 21, 100% of net profit goes to GK Bharta.</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h3>4. Financing and Repayment</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Item</th><th class="num">Amount</th><th>Terms</th></tr></thead>
+      <tbody>
+        <tr><td>Bharat bonds (principal)</td><td class="num">$56.00T</td><td>10-year, 9% interest, issued at end of Year 15</td></tr>
+        <tr><td>Interest capitalised before Iron Nexus is cleared</td><td class="num">$16.52T</td><td>Added to the Bharat balance; paid from pooled profit after Iron Nexus</td></tr>
+        <tr><td>Bharat interest paid in cash (Years 19–20)</td><td class="num">$7.97T</td><td>Paid from pooled profit ahead of principal</td></tr>
+        <tr class="total"><td>Cleared</td><td class="num">Year 20</td><td>15 years ahead of the 35-year schedule; bonds mature in Year 25</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="card">
+  <h3>5. Stream Profit Timing</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Year</th><th class="num">Bharat profit</th><th class="num">To reserve (60%)</th><th class="num">To pool (40%)</th></tr></thead>
+      <tbody>
+        <tr><td>16–18</td><td class="num">$0.00T</td><td class="num">$0.00T</td><td class="num">$0.00T</td></tr>
+        <tr><td>19</td><td class="num">$0.42T</td><td class="num">$0.25T</td><td class="num">$0.17T</td></tr>
+        <tr><td>20</td><td class="num">$0.42T</td><td class="num">$0.25T</td><td class="num">$0.17T</td></tr>
+        <tr><td>21 onward</td><td class="num">$0.42T+</td><td class="num">$0.00T (cleared)</td><td class="num">100% to GK Bharta</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Profit ramps to $4.71T per year at full scale. The file gives no year-by-year figures beyond Phase 2 for Bharat.</p>
+</section>
+
+<section class="card">
+  <h3>6. Human Capital and Security</h3>
+  <ul>
+    <li><strong>Engineers:</strong> 560,000 Forward Deployed Engineers, with seven per hub for 24/7 monitoring across three 8-hour shifts.</li>
+    <li><strong>Training:</strong> A 12-month, online, credit-bearing Post-Graduate Advanced Diploma with UVCE and Bangalore University, scaling to 2,147 physical hubs by Year 3.</li>
+    <li><strong>Maritime defence:</strong> The Indian Navy's Maritime Domain Awareness bubble, with BrahMos batteries covering mid-tier lanes.</li>
+    <li><strong>Perimeter security:</strong> CISF, with anti-drone interceptor domes and air-gapped private 5G cores.</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h3>7. Risks and Open Items</h3>
+  <ul>
+    <li><strong>Engineer count:</strong> Seven FDEs per hub across 560,000 hubs implies about 3.9 million engineers, not 560,000. The figure needs to be confirmed.</li>
+    <li><strong>Revenue basis:</strong> The 28% share is a value-add figure. Converting it to revenue needs an input-cost ratio, which the file doesn't give.</li>
+    <li><strong>Timing data:</strong> Year-by-year profit is only given for Phase 2. Phases 3 and 4 are shown as steady levels.</li>
+    <li><strong>Training bonds:</strong> ₹20.0 crore per-hub refund exposure needs a legal review to separate it from tuition revenue.</li>
+    <li><strong>Interest exposure:</strong> The $56.00T carries 9% interest, which is $5.04T a year before any capitalisation.</li>
+  </ul>
+</section>
+
+<footer>
+  Prepared from the Delper Group Consolidated Executive Summary (Integrated). Figures are as stated in the source and have not been independently verified.
+</footer>
+
+</main>
+</body>
+</html>
